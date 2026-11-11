@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:3000/api/habits
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"nome\": \"Estudar Engenharia de Software\",\r
+
+    \  \"frequencia\": \"diaria\",\r
+
+    \  \"metaDiaria\": 1\r
+
+    }\r\n"
+order: 1000
