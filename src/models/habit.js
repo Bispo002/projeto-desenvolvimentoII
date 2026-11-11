@@ -20,7 +20,7 @@ const habitSchema = new mongoose.Schema({
 
   criadoEm: {
     type: Date,
-    default: date.now
+    default: Date.now
   }
 })
 
